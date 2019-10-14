@@ -20,11 +20,15 @@ body {
   margin: 0 auto -100px;
 }
 body {
-  background: url("../Images/concrete_seamless.png");
+  background: url("../Images/download.jpeg");
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777;
+}
+
+.navbar-brand{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -33,6 +37,10 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+  }
+
+  .hangman {
+    margin-top: 10px;
   }
 
   h1, h2, h3, p {
@@ -65,7 +73,7 @@ p:last-child {
 
 #masthead {
     /* position: fixed; */
-    background: #fff;
+    background: white;
     margin: 0 0 30px;
     z-index: 99;
     color: #fff;
@@ -122,7 +130,7 @@ p:last-child {
     max-width: 650px;
     padding: 30px;
     margin: 0 0 40px;
-    background: #fff;
+    background: white;
     border: 1px solid #ddd;
   }
 
@@ -141,7 +149,7 @@ p:last-child {
     max-width: 270px;
     padding: 30px;
     margin-bottom: 20px;
-    background: #fff;
+    background: rgb(71, 33, 33);
     border: 1px solid #ddd;
   }
 
@@ -166,10 +174,10 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #ccc;
+  color: rgb(105, 94, 94);
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: white;
+  
 }
 
 /* portfolio page */
